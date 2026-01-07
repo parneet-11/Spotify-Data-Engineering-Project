@@ -1,0 +1,9 @@
+{
+	"name": "df-ParneetAzure",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f19527d8-55b6-45ac-bb15-72e9590681a7",
+		"tenantId": "562e182b-fa9d-4ecd-beaa-ae42ae100390"
+	}
+}
