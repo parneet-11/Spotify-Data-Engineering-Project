@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "df-ParneetAzure"
+		},
+		"Azure_DataLake_spotify_accountKey": {
+			"value": ""
+		},
+		"Azure_Sql_Spotify_password": {
+			"value": ""
+		},
+		"Azure_DataLake_spotify_properties_typeProperties_url": {
+			"value": "https://parneetazurestorage.dfs.core.windows.net/"
+		},
+		"Azure_Sql_Spotify_properties_typeProperties_server": {
+			"value": "parneetazureprojectserver.database.windows.net"
+		},
+		"Azure_Sql_Spotify_properties_typeProperties_database": {
+			"value": "spotifydb"
+		},
+		"Azure_Sql_Spotify_properties_typeProperties_userName": {
+			"value": "adminparneet"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
