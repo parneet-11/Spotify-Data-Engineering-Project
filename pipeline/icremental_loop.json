@@ -8,6 +8,10 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
+					"items": {
+						"value": "@pipeline().parameters.loop_ip",
+						"type": "Expression"
+					},
 					"activities": [
 						{
 							"name": "last_cdc",
